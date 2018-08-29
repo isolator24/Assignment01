@@ -1,7 +1,11 @@
-import { StackNavigator } from 'react-navigation'; // Version can be specified in package.json
+import {StackNavigator} from 'react-navigation'; // Version can be specified in package.json
 import HomeScreen from './components/HomeScreen.js';
 import DetailsScreen from './components/DetailsScreen.js';
 import MyCustomScreen from './components/MyCustomScreen.js';
+import React, { Component } from 'react';
+import EventList from './components/Events/EventList.js';
+
+HomeScreen
 
 DetailsScreen
 
@@ -40,3 +44,5 @@ export default class App extends React.Component {
     return <RootStack />;
   }
 }
+
+//AppRegistry.registerComponent('AwesomeProject', () => Bananas);

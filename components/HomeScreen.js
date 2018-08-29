@@ -5,6 +5,9 @@ class HomeScreen extends React.Component {
 
   static navigationOptions = {
     title: 'Home',
+    headerTitle: 'Home',
+    headerBackImage: null,
+    headerRight: true,
   };
 
   render() {
@@ -30,3 +33,5 @@ class HomeScreen extends React.Component {
     );
   }
 }
+
+export default HomeScreen

@@ -22,7 +22,7 @@ export default class Assignment04 extends React.Component {
                 navigation.navigate("Tos");
             }}
         >
-            <Text style={styles.headerButtonStyle}>Terms</Text>
+            {/* <Text style={styles.headerButtonStyle}>Terms</Text> */}
         </TouchableOpacity>
     )
 });
@@ -86,7 +86,7 @@ render() {
                 renderItem={({ item }) => (
                     <TouchableOpacity
                         onPress={() => {
-                            navigation.navigate("ItemDetails", {
+                          this.props.navigation.navigate("ItemDetails", {
                                 detailItem: item
                             });
                         }}

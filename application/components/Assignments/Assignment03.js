@@ -11,17 +11,6 @@ export default class Assignment03 extends React.Component {
     const familyDatas = require('../../data/familyData.json').familyDatas;
     this.setState({familyDatas});
   }
-//  componentWillMount() {
-//    console.log('Hello world');
-//    fetch('../data/familyData.json')
-//     .then(response => response.json())
-//     .then((responseData) => {
-//       console.log(responseData);
-//     }).catch(function(error) {
-//       console.log('There has been a problem')
-//       throw error;
-//     });
-//  }
 
   render() {
     return (
@@ -46,9 +35,6 @@ export default class Assignment03 extends React.Component {
               </TouchableHighlight>
             )}
           />
-
- 
-
       </View>
     );
 

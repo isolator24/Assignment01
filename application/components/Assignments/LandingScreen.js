@@ -1,12 +1,15 @@
 import React from 'react';
-import { Button, View, Text, StyleSheet, ScrollView } from 'react-native';
+import { Animated, Button, View, Text, StyleSheet, ScrollView } from 'react-native';
 
 export default class Assignment01 extends React.Component {
 
-  constructor(props) {
-    super(props);
-    
-  }
+    constructor(props) {
+        super(props);
+        this.state = {
+            fadeOut: new Animated.Value(10),
+            leftPostion: new Animated.Value(2000)
+        };
+    }
 
 //   toggleUser = ()=> {
 //     this.setState(previousSate =>{
@@ -21,12 +24,12 @@ export default class Assignment01 extends React.Component {
     
     return (
       <ScrollView>
-        <View style={styles.rowStyle}>
+        <Animated.View style={styles.rowStyle}>
                     <Text style={styles.listRowLabel}>Name:</Text>
                     <Text style={styles.listRowContent}>
                         {params.all.name}
                     </Text>
-        </View>
+        </Animated.View>
         <View style={styles.rowStyle}>
                     <Text style={styles.listRowLabel}>Family Name:</Text>
                     <Text style={styles.listRowContent}>

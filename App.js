@@ -1,16 +1,16 @@
 import { StackNavigator} from 'react-navigation'; // Version can be specified in package.json
-import HomeScreen from './components/HomeScreen.js';
-import DetailsScreen from './components/DetailsScreen.js';
-import MyCustomScreen from './components/MyCustomScreen.js';
-import AssignmentScreen from './components/Assignments/AssignmentScreen.js';
-import Assignment01 from './components/Assignments/Assignment01.js';
-import Assignment02 from './components/Assignments/Assignment02.js';
-import Assignment03 from './components/Assignments/Assignment03.js';
-import Assignment04 from './components/Assignments/Assignment04.js';
-import Assignment05 from './components/Assignments/Assignment05.js';
-import LandingScreen from './components/Assignments/LandingScreen.js';
+import HomeScreen from './application/components/HomeScreen.js';
+import DetailsScreen from './application/components/DetailsScreen.js';
+import MyCustomScreen from './application/components/MyCustomScreen.js';
+import AssignmentScreen from './application/components/Assignments/AssignmentScreen.js';
+import Assignment01 from './application/components/Assignments/Assignment01.js';
+import Assignment02 from './application/components/Assignments/Assignment02.js';
+import Assignment03 from './application/components/Assignments/Assignment03.js';
+import Assignment04 from './application/components/Assignments/Assignment04.js';
+import Assignment05 from './application/components/Assignments/Assignment05.js';
+import LandingScreen from './application/components/Assignments/LandingScreen.js';
 import React, { Component } from 'react';
-import EventList from './components/Events/EventList.js';
+import EventList from './application/components/Events/EventList.js';
 
 
 HomeScreen

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, View, Text } from 'react-native';
 //import {StackNavigator} from 'react-navigation';
-import Header from '../utility/Header.js';
+import Header from '../../utility/Header.js';
 
 
 export default class AssignmentScreen extends React.Component {
